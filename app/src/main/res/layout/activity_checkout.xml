@@ -12,6 +12,7 @@
         android:textSize="24sp"
         android:layout_marginBottom="16dp"/>
 
+    
     <ListView
         android:id="@+id/lvCartItems"
         android:layout_width="match_parent"
