@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Layout màn hình đăng nhập -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:layout_width="match_parent"   <!-- Chiều rộng full màn hình -->
+    android:layout_height="match_parent"  <!-- Chiều cao full màn hình -->
+    android:orientation="vertical"        <!-- Sắp xếp theo chiều dọc -->
+    android:padding="16dp"                <!-- Khoảng cách viền trong -->
+    android:gravity="center">             <!-- Căn giữa nội dung -->
 
+    <!-- Tiêu đề Login -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="24sp"
+        android:text="Login"              <!-- Nội dung -->
+        android:textSize="24sp"           <!-- Chữ lớn -->
         android:layout_marginBottom="16dp"/>
 
+    <!-- Ô nhập username -->
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/etUsername"      <!-- ID để lấy dữ liệu -->
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"/>
+        android:hint="Username"/>        <!-- Gợi ý nhập -->
 
+    <!-- Ô nhập password -->
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"/> <!-- Ẩn ký tự -->
 
+    <!-- Nút đăng nhập -->
     <Button
         android:id="@+id/btnLoginSubmit"
         android:layout_width="match_parent"
