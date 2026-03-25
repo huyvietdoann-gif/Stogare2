@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,30 +12,25 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="32dp"/>
-
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"/>
-
     <Button
         android:id="@+id/btnViewCategories"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View Categories"/>
-
     <Button
         android:id="@+id/btnViewProducts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="View Products"/>
-
     <TextView
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Welcome!"/>
-
 </LinearLayout>
